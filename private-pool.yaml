@@ -1,0 +1,7 @@
+privatePoolV1Config:
+  networkConfig:
+    egressOption: NO_PUBLIC_EGRESS
+    peeredNetwork: projects/kenthua-test-identity/global/networks/packt-cloudbuild-sandbox-vpc
+  workerConfig:
+    diskSizeGb: '100'
+    machineType: e2-medium
