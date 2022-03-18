@@ -6,7 +6,7 @@ steps:
     - "(echo I am running in a private pool! From Secret Manager: $${TEST_SECRET})"
   secretEnv:
   - TEST_SECRET
-logsBucket: 'packt-cloudbuild-logging'
+logsBucket: 'gs://packt-cloudbuild-logging'
 options:
   pool:
     name: 'projects/kenthua-test-identity/locations/us-west1/workerPools/packt-private-pool'
